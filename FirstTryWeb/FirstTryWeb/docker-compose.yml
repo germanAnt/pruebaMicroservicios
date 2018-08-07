@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  firsttryweb:
+    image: ${DOCKER_REGISTRY}firsttryweb
+    build:
+      context: .
+      dockerfile: FirstTryWeb\Dockerfile
